@@ -1,0 +1,4 @@
+/vendor
+/test
+/docroot
+composer.lock
