@@ -3,7 +3,6 @@
     "description": "A twig renderer for Gnorm",
     "keywords": ["twig", "gnorm", "Genuine"],
     "type": "package",
-    "version": "dev-master",
     "minimum-stability": "dev",
     "require": {
         "twig/twig": "^1.35"
