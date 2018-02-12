@@ -114,6 +114,7 @@ class Gnormtwig {
         'debug' => TRUE,
         'autoescape' => FALSE,
       ));
+      $this->twigEnvironment->addExtension(new \Twig_Extension_Debug());
     }
 
     return $this->twigEnvironment;
@@ -205,5 +206,4 @@ class Gnormtwig {
       }
     }
   }
-
 }
